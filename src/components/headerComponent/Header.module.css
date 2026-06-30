@@ -17,15 +17,38 @@
 }
 
 .nav-link {
+  position: relative;
   text-decoration: none;
   color: #333;
   font-family: sans-serif; /* Altere para a fonte do seu projeto */
   font-size: 16px;
   font-weight: 300; /* Deixa a fonte mais fina, como na imagem */
+
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
 }
 
 .nav-link:hover {
   color: #000; /* Efeito opcional ao passar o mouse */
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
 }
 
 .divider {
