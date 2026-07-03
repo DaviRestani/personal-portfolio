@@ -1,11 +1,13 @@
 import { Header } from "../components/headerComponent/Header";
-import { Body } from "../components/bodyComponent/BodyComponent";
+import { Outlet } from "react-router-dom";
 
 export function RootLayout() {
   return (
     <>
       <Header></Header>
-      <Body></Body>
+      <main>
+        <Outlet></Outlet>
+      </main>
     </>
   );
 }

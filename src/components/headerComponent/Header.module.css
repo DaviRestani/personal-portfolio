@@ -10,19 +10,24 @@
   padding: 0 20px;
 }
 
+.logo-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 15px; /* Espaçamento igual entre os itens e as barras */
+  gap: 15px;
 }
 
 .nav-link {
   position: relative;
   text-decoration: none;
   color: #333;
-  font-family: sans-serif; /* Altere para a fonte do seu projeto */
+  font-family: sans-serif;
   font-size: 16px;
-  font-weight: 300; /* Deixa a fonte mais fina, como na imagem */
+  font-weight: 300;
 
   display: inline-block;
   transition: color 0.3s ease;
@@ -44,7 +49,7 @@
 }
 
 .nav-link:hover {
-  color: #000; /* Efeito opcional ao passar o mouse */
+  color: #000;
 }
 
 .nav-link:hover::after {
@@ -53,13 +58,13 @@
 
 .divider {
   color: #000;
-  font-weight: 100; /* Deixa a barra vertical bem fina */
+  font-weight: 100;
 }
 
 .title-header {
   text-decoration: none;
   color: #333;
-  font-family: sans-serif; /* Altere para a fonte do seu projeto */
+  font-family: sans-serif;
   font-size: 30px;
   font-weight: 300;
 }
