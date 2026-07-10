@@ -1,0 +1,23 @@
+.section {
+  padding: 40px 20px;
+  max-width: 1200px; /* Um pouco maior para acomodar os cards lado a lado */
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* O container controla o alinhamento horizontal dos cards */
+.container {
+  display: flex;
+  flex-direction: row; /* Alinha os cards na horizontal */
+  justify-content: center; /* Centraliza o bloco de cards na tela */
+  align-items: stretch; /* Faz todos os cards terem exatamente a mesma altura */
+  gap: 16px; /* Defina aqui o tamanho do pequeno espaço (ex: 16px ou 20px) */
+  flex-wrap: wrap; /* Importante: se a tela encolher (celular), eles quebram linha para não amassar */
+}
