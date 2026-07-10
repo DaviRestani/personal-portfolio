@@ -1,0 +1,64 @@
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* Distanciamento horizontal entre os itens */
+  flex-wrap: wrap; /* Garante responsividade em telas de celular */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Alinha o ícone no topo e os textos abaixo */
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.iconContainer {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.icon {
+  color: #0070f3;
+  font-size: 32px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin: 0 0 8px 0; /* Distanciamento pequeno abaixo do título */
+  color: #222;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  margin: 0;
+  color: #666;
+
+  overflow-wrap: break-word;
+  word-break: break-all;
+}

@@ -1,4 +1,5 @@
 import styles from "./Portfolio.module.css";
+import DownloadIcon from "@mui/icons-material/Download";
 import React from "react";
 
 export function Portfolio() {
@@ -20,18 +21,7 @@ export function Portfolio() {
           href="/files/Curriculum_Vitae_Davi_Restani.pdf"
           download="Curriculum_Vitae_Davi_Restani.pdf"
         >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
+          <DownloadIcon style={{ marginRight: "8px" }} />
           Baixar PDF
         </a>
       </section>
@@ -147,6 +137,15 @@ export function Portfolio() {
           </div>
           <p className={styles.company}>
             Instituto Nacional de Telecomunicações - INATEL
+          </p>
+        </div>
+        <div className={styles.educationItem}>
+          <div className={styles.timelineHeader}>
+            <h4>Pós graduação em Desenvolvimento Full Stack</h4>
+            <span>2026 - 2027</span>
+          </div>
+          <p className={styles.company}>
+            PUC Minas - Pontifícia Universidade Católica de Minas Gerais
           </p>
         </div>
       </section>

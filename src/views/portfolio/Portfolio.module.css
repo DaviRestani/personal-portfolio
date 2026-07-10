@@ -42,6 +42,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
+  text-decoration: none;
 }
 
 .downloadBtn:hover {
@@ -49,6 +50,9 @@
 }
 
 .section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin-bottom: 40px;
 }
 
