@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto SPA para a descrição de um portfolio pessoal com currículo, contato e projetos desenvolvidos
 
-## Available Scripts
+## Demonstração
+
+
 
 In the project directory, you can run:
 
